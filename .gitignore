@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
 # Compiled Object files
 *.slo
 *.lo
+=======
+# Compiled object files
+>>>>>>> 73c06ec (now using Ninja instead of Makefile)
 *.o
 *.obj
 
@@ -11,17 +15,21 @@
 *.gch
 *.pch
 
+<<<<<<< HEAD
 # Linker files
 *.ilk
 
 # Debugger Files
 *.pdb
 
+=======
+>>>>>>> 73c06ec (now using Ninja instead of Makefile)
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 
+<<<<<<< HEAD
 # Fortran module files
 *.mod
 *.smod
@@ -33,9 +41,47 @@
 *.lib
 
 # Executables
+=======
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executable files
+>>>>>>> 73c06ec (now using Ninja instead of Makefile)
 *.exe
 *.out
 *.app
 
+<<<<<<< HEAD
 # debug information files
 *.dwo
+=======
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+
+# Visual Studio Code
+.vscode/
+
+# Ignore build and bin folders
+build/
+bin/
+
+# Other temporary files
+*~
+*.swp
+*.tmp
+.DS_Store
+>>>>>>> 73c06ec (now using Ninja instead of Makefile)
